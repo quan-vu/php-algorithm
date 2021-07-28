@@ -1,0 +1,26 @@
+{
+    "name": "super/php-algorithm",
+    "description": "Practice Data Structures and Algorithms in PHP.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhpAlgorithm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpAlgorithm\\Tests\\": "tests/" 
+        }
+    },
+    "authors": [
+        {
+            "name": "Quan Vu",
+            "email": "huyquan.vu.1@gmail.com"
+        }
+    ],
+    "require": {}
+}
