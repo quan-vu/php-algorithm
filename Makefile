@@ -1,5 +1,5 @@
 composer:
-	composer update
+	composer dump-autoload
 
 install:
 	composer install
